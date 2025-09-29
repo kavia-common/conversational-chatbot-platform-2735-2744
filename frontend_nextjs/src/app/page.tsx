@@ -1,9 +1,12 @@
+"use client";
+
+import ChatPage from "@/components/chat/ChatPage";
+
+/**
+ * PUBLIC_INTERFACE
+ * HomePage: Entry point rendering the ChatPage component.
+ * The application showcases a modern ocean-themed chat interface.
+ */
 export default function Home() {
-  return (
-    <main className="min-h-screen bg-white flex items-center justify-center">
-      <h1 className="text-black text-4xl font-light">
-        frontend_nextjs is being generated
-      </h1>
-    </main>
-  );
+  return <ChatPage />;
 }
